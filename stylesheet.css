@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    max-width:1170px;
+    width:100%;
+    margin:50px auto;
+    padding:0 10%;
+}
+
+header{
+    position:fixed;
+    top:0;
+    z-index:10;
+    height:70px;
+    width:auto;
+    margin-top:-50px;
+    margin-bottom:-50px;
+}
+
+.header-logo{
+    height:50px;
+    width:50px;
+    margin-top:20px;
+    margin-left:5px;
+}
+
+.header-logo:hover{
+    margin-top:5px;
+}
+
+#top-wrapper{
+    background-image:url(coffee-2319107_1280.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:250px;
+    width:auto;
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+#first-wrapper , #policy-wrapper , #contact-form{
+    margin-top:70px;
+    margin-bottom:70px;
+    width:auto;
+}
+
+#profile-wrapper{
+    background-image:url(coffee-5037804_640.jpg);
+    width:auto;
+    background-size:cover;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+
+h1{
+    font-family: 'Yusei Magic', sans-serif;
+    letter-spacing:5px;
+    padding-top:40px;
+    font-size:24px;
+    color:rgb(71, 47, 17);
+}
+
+h2{
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+    font-weight:normal;
+    line-height:25px;
+    padding-top:10px;
+}
+
+.heading{
+    background-color: floralwhite;
+}
+
+span{
+    font-size:10px;
+}
+
+.first-text{
+    padding:30px 35%;
+}
+
+
+.now-mind{
+    display:flex;
+    flex:auto;
+}
+
+.box{
+    padding:20px 5%;
+    width: 33%;
+}
+
+.policy-icon{
+    text-align: center;
+    display:inline-block;
+    border:2px solid chocolate;
+    border-radius:45%;
+    background-color: chocolate;
+    color:white;
+    padding:20px;
+}
+
+.policy-heading{
+    margin-top:30px;
+    margin-bottom:30px;
+    border-bottom:1px solid black;
+    padding-bottom:10px;
+}
+
+.ago{
+    width:100px;
+    margin:30px auto;
+}
+
+.future-mind{
+    padding-top:80px;
+    text-align: center;
+}
+
+.ago-heading{
+    font-size:18px;
+    letter-spacing:4px;
+    padding-bottom:5px;
+}
+
+.aft{
+    padding-bottom:50px;
+}
+
+.profile-first{
+    padding:20px;
+}
+
+.profile-second{
+    padding:20px;
+}
+
+.profile-title{
+    padding-bottom:20px;
+    font-weight:normal;
+}
+
+
+#contact-form{
+    text-align: center;
+}
+
+.ct-heading{
+    padding-bottom:20px;
+}
+
+.contact-text{
+    display:block;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+.form-name , .form-mail , .form-about{
+    border:1px solid gray;
+    border-radius: 5px;
+    padding:10px;
+}
+
+textarea{
+    overflow:scroll;
+}
+
+.send-button{
+    display:block;
+    background-color:rgb(184, 184, 184);
+    padding:10px 60px;
+    margin:0 auto;
+    transition:0.6s;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.send-button:hover{
+    background-color:rgb(155, 155, 155);
+    transition:0.6s;
+}
+
+.ct-text{
+    font-size:10px;
+}
+
+footer{
+    background-color:rgb(71, 47, 17);
+    height:50px;
+}
+
+.btn , .footer-menu{
+    line-height:50px;
+    margin-left:30px;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+.footer-logo{
+    height:50px;
+    width:50px;
+    float:right;
+}
+
+
+@media(max-width:1000px){
+    .first-text{
+        padding:30px 25%;
+    }
+
+    .box{
+        padding:20px 2%;
+    }
+}
+
+@media(max-width:670px){
+    .first-text{
+        padding:30px 20%;
+    }
+
+    .now-mind{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box{
+        width:100%;
+    }
+
+    .send-button{
+        padding:15px 100px;
+    }
+}
