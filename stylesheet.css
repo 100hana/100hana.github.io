@@ -129,11 +129,6 @@ span{
     text-align: center;
 }
 
-.ago-heading{
-    font-size:18px;
-    letter-spacing:4px;
-    padding-bottom:5px;
-}
 
 .aft{
     padding-bottom:50px;
@@ -239,6 +234,10 @@ footer{
 
     .box{
         width:100%;
+    }
+
+    .policy-text{
+        font-size:12px;
     }
 
     .send-button{
